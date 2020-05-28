@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="68bb4081af7c48ce89961123ad29e49c" Name="Diagram1">
+        <EntityTypeShape EntityType="ArcaModel.cliente" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ArcaModel.departamento" Width="1.5" PointX="3" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ArcaModel.detalle_venta" Width="1.5" PointX="7.5" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ArcaModel.estado" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ArcaModel.menu" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ArcaModel.menu_roles" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ArcaModel.MetodoPago" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ArcaModel.producto" Width="1.5" PointX="5.25" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ArcaModel.proveedor" Width="1.5" PointX="3" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ArcaModel.roles" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ArcaModel.TipoVenta" Width="1.5" PointX="3" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ArcaModel.usuario" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ArcaModel.venta" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="ArcaModel.FK__venta__idcliente__29221CFB" ManuallyRouted="false" />
+        <AssociationConnector Association="ArcaModel.FK__producto__depart__1AD3FDA4" ManuallyRouted="false" />
+        <AssociationConnector Association="ArcaModel.FK__detalle_v__idpro__2FCF1A8A" ManuallyRouted="false" />
+        <AssociationConnector Association="ArcaModel.FK__detalle_v__idven__2EDAF651" ManuallyRouted="false" />
+        <AssociationConnector Association="ArcaModel.fk_estado" ManuallyRouted="false" />
+        <AssociationConnector Association="ArcaModel.fk_estadoo" ManuallyRouted="false" />
+        <AssociationConnector Association="ArcaModel.fk_rolees" ManuallyRouted="false" />
+        <AssociationConnector Association="ArcaModel.FK__venta__idmetodo__2B0A656D" ManuallyRouted="false" />
+        <AssociationConnector Association="ArcaModel.FK__producto__idprov__19DFD96B" ManuallyRouted="false" />
+        <AssociationConnector Association="ArcaModel.fk_roles" ManuallyRouted="false" />
+        <AssociationConnector Association="ArcaModel.FK__venta__id_tipo_v__2BFE89A6" ManuallyRouted="false" />
+        <AssociationConnector Association="ArcaModel.FK__venta__idusuario__2A164134" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
